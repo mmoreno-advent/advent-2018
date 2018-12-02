@@ -26,7 +26,7 @@ public class Launcher {
 				
 		String sol = ( new SimilarIdsFinder()).remainCharsSimilarIds( ids );
 		
-		System.out.println("Solution: " + sol.toString());
+		System.out.println("Solution: " + sol);
 	}
 	
 	private static List<String> readLines(String filename) {
